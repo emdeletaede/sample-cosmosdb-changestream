@@ -1,4 +1,5 @@
 
+
 var watchcursor = db.calcio.watch([
 {$match : { operationType : {$in : ["insert","update","replace"] }}},
 {$project : { fullDocument:1}},
